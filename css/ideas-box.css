@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
+  background-color: rgb(245, 245, 245);
+  background-image: url(../images/ideas-box_background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+.current_page {
+  color: #7a9dd6;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+li,
+a,
+button {
+  font-family: "Abel", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+header {
+  display: inline-flex;
+  align-items: center;
+  padding: 30px 10;
+  background: rgb(47, 52, 68);
+  padding: 5px;
+  width: 100%;
+  margin: 0%;
+}
+header span {
+  font-family: "Abel", sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+  color: #ffffff;
+  user-select: none;
+}
+header nav {
+  margin-left: 50px;
+}
+nav a {
+  padding: 5px 15px 5px 15px;
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+}
+nav a:hover {
+  color: #7a9dd6;
+  border-bottom: 0.5px solid #dde2ff;
+  border-top: 0.5px solid #dde2ff;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+header img {
+  margin-right: 10px;
+}
+#container {
+  padding: 10px 125px 10px 125px;
+  background: rgba(0, 0, 0, 0.2);
+}
+footer {
+  display: inline-flex;
+  align-items: center;
+  padding: 30px 10;
+  background: rgb(47, 52, 68);
+  padding: 5px;
+  width: 100%;
+  margin: 0%;
+}
+footer span {
+  font-family: "Abel", sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+  color: #ffffff;
+  user-select: none;
+}
+#container h1 {
+  font-family: "Abel", sans-serif;
+}
+#container p {
+  font-family: "Abel", sans-serif;
+  margin: 5px;
+}
+#container h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 15px 20px 15px 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: rgb(47, 52, 68);
+  user-select: none;
+}
+#container form {
+  padding: 15px 20px 15px 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.904);
+}
+#container form input {
+  font-family: "Abel", sans-serif;
+  padding: 3px;
+}
+#container form textarea {
+  font-family: "Abel", sans-serif;
+  padding: 3px;
+}
+#container form input[type="file"] {
+  color: #ffffff;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  color: rgb(255, 255, 255);
+  background: rgb(47, 52, 68);
+  padding: 5px 7px 5px 7px;
+  border-radius: 5px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(47, 52, 68);
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&display=swap");
+
+/* body {
+  padding: 10px 125px 10px 125px;
+} */
+.birthdays-widget {
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #e9e8e8;
+  backdrop-filter: blur(0.5px);
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  width: max-content;
+}
+.birthdays-widget .birthdays-text {
+  display: inline;
+}
+.birthdays-widget .birthdays-text h3 {
+  font-family: "Abel", sans-serif;
+  background-color: rgb(253, 249, 249);
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  font-size: 25px;
+  padding-right: 45px;
+  padding-left: 3px;
+}
+.birthdays-widget .birthdays-text .material-icons-outlined {
+  background-color: rgb(253, 249, 249);
+  border-radius: 2px;
+  font-size: 25px;
+}
+.birthdays-list {
+  margin-top: 2px;
+  display: inline-block;
+  height: 300px;
+  overflow: auto;
+}
+.birthdays {
+  box-shadow: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+.birthdays-list .birthdays tr th {
+  border: 0.5px solid rgb(255, 255, 255);
+  padding: 15px;
+  user-select: none;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px solid #000;
+  margin: 5px;
+}
+.birthdays-list .birthdays tr td {
+  border: 0.5px solid rgb(255, 255, 255);
+  padding: 10px;
+  text-align: end;
+  user-select: none;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px solid #000;
+  margin: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&display=swap");
+
+/* body {
+  padding: 10px 125px 10px 125px;
+} */
+.birthday_person {
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #e9e8e8;
+  backdrop-filter: blur(0.5px);
+  background: rgba(0, 0, 0, 0.2);
+  width: max-content;
+  align-items: center;
+  text-align: center;
+  width: 525px;
+  margin-left: 20px;
+}
+.cake {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bd_details {
+  background-color: #e9e8e8;
+  border-radius: 5px;
+  padding: 5px 2px 5px 5px;
+  width: 200px;
+  text-align: left;
+  margin-left: 10px;
+  height:max-content;
+}
+.bd_details .bd_name {
+  font-family: "Abel", sans-serif;
+  margin-bottom: 5px;
+}
+.bd_details .bd_date {
+  font-family: "Abel", sans-serif;
+  margin-bottom: 5px;
+}
+.cake img {
+  border-radius: 12px;
+}
+.bd_details .age {
+  font-family: "Abel", sans-serif;
+}
+.wishing {
+  text-align: center;
+  border-radius: 12px;
+  background-color: #f7f4f4;
+  margin: 100px 5px 5px 5px;
+  padding-bottom: 3px;
+}
+.wishing h2 {
+  font-family: "Abel", sans-serif;
+}

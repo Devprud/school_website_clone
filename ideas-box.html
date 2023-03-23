@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DPS Gandhinagar</title>
+    <link href="images\favicon.ico" rel="shortcut icon" type="image/ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/ideas-box.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/dps.png" height="50px" />
+      <span>Students</span>
+      <nav>
+        <ul class="nav_links">
+          <a href="index.html">Home</a>
+          <a href="academics.html">Academics</a>
+          <a href="announcements.html">Anouncements</a>
+          <a href="calender.html">Calender</a>
+          <a href="ideas-box.html" class="current_page">Ideas Box</a>
+        </ul>
+      </nav>
+    </header>
+    <div id="container">
+      <h1>Ideas Box</h1>
+      <p>
+        Hello Students. Welcome to the new Ideas Box of the DPS Ganhinagar
+        students website. This page is for submitting your awesome ideas and
+        creations. Here you can get help from teachers and other students who
+        are intrested in the topic. And students with the best ideas and
+        creations will get a certificate at the end of the year.
+      </p>
+      <p>We are waiting for your Ideas and Creations</p>
+      <h2>Form</h2>
+      <form>
+        <p>Full Name</p>
+        <input type="text" class="name" />
+        <p>Class</p>
+        <input type="text" class="class" />
+        <p>Section</p>
+        <input type="text" class="section" />
+        <p>Admission Number</p>
+        <input type="text" class="admNO" />
+        <p>House</p>
+        <input type="text" class="house" />
+        <p>Description</p>
+        <textarea
+          name="description"
+          id="description"
+          cols="100"
+          rows="6"
+          style="resize: vertical"
+          placeholder="Describe about your creation or idea.."
+          class="description"
+        ></textarea>
+        <p>Upload File (Optional)</p>
+        <div class="upload-btn-wrapper">
+          <button class="btn">Upload file</button>
+          <input type="file" name="myfile" />
+        </div>
+        <p>Are you ready to submit?</p>
+        <input
+          type="submit"
+          style="
+            background: rgb(47, 52, 68);
+            color: white;
+            padding: 5px 7px 5px 7px;
+            border-radius: 5px;
+          "
+        />
+      </form>
+    </div>
+    <footer>
+      <img src="images/dps.png" height="50px" />
+      <span
+        ><a href="http://www.dps-gandhinagar.com" target="_blank"
+          >DPS - Gandhinagar</a
+        ></span
+      >
+    </footer>
+    <script src="js/expirement.js"></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&display=swap");
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+/* body {
+  padding: 10px 125px 10px 125px;
+} */
+table {
+  box-shadow: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+table tr th {
+  border: 0.5px solid rgb(255, 255, 255);
+  padding: 15px;
+  user-select: none;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px solid #000;
+  margin: 5px;
+}
+table tr td {
+  border: 0.5px solid rgb(255, 255, 255);
+  padding: 10px;
+  text-align: end;
+  user-select: none;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  box-shadow: 2px solid #000;
+  margin: 5px;
+}
+td:hover {
+  background-color: rgba(5, 90, 5, 0.5);
+  border: 0.5px solid rgb(255, 255, 255);
+}
+table tr td span {
+  font-family: "Quicksand", sans-serif;
+  padding: 0px 2px 0px 2px;
+  margin-right: 3px;
+  font-size: 10px;
+  background-color: gold;
+  border-radius: 2px;
+}
+.calender-widget {
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #e9e8e8;
+  backdrop-filter: blur(0.5px);
+  background: rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin-top: 10px;
+}
+.calender-widget .calender-text {
+  display: inline-block;
+}
+.calender-widget .calender-text h3 {
+  font-family: "Abel", sans-serif;
+  background-color: rgb(253, 249, 249);
+  border-radius: 2px;
+  margin-left: 2px;
+  font-size: 25px;
+  padding-right: 45px;
+  padding-left: 3px;
+}
+.calender-widget .calender-text .material-icons-outlined {
+  background-color: rgb(253, 249, 249);
+  border-radius: 2px;
+  font-size: 25px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.event-list {
+  height: 350px;
+  overflow: auto;
+  text-align: justify;
+  margin-left: 10px;
+  padding: 5px;
+  padding: 5px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+}
+.event-list p {
+  color: #000;
+  font-family: "Abel", sans-serif;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  background-color: rgb(253, 249, 249);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+.event-list h3 {
+  color: #000;
+  font-family: "Abel", sans-serif;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  background-color: rgb(253, 249, 249);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+.calender-text .event-list p .event_date {
+  font-family: "Abel", sans-serif;
+  padding: 0px 2px 0px 2px;
+  margin-left: 5px;
+  font-size: 10px;
+  background-color: gold;
+  border-radius: 2px;
+}
+.collapsible {
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+.collapse-button {
+  background: rgba(47, 52, 68, 0.719);
+  color: #ffffff;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.content .btn {
+  background: rgb(47, 52, 68);
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.content .btn_align {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#container h1 {
+  font-family: "Abel", sans-serif;
+
+}
